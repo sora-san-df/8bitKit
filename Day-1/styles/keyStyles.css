@@ -1,0 +1,29 @@
+.key{
+   /* From https://css.glass */
+    background: rgba(255, 245, 245, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(55px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 245, 245, 0.3);
+    margin: 1rem; 
+    font-size: 1.5rem; 
+    padding: 1rem .5rem; 
+    transition: all .07s;
+    /* width: 100px;  */
+    text-align: center;
+    color: rgb(2, 2, 2);
+    text-shadow: 0 0 5px black;
+}
+
+.playing{
+    transform: scale(1,1);
+    border-color: #000;
+    box-shadow: 0 0 10px #000;
+}
+.kbd{
+    display:block;
+    font-size: 40px; 
+    
+    
+}
